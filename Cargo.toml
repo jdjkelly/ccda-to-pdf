@@ -1,0 +1,12 @@
+[package]
+name = "ccda-to-pdf"
+version = "0.1.0"
+edition = "2021"
+description = "Convert HL7 C-CDA XML documents into readable PDF summaries."
+license = "MIT"
+
+[lib]
+crate-type = ["rlib", "cdylib"]
+
+[dependencies]
+roxmltree = "0.20"
